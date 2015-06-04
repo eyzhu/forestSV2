@@ -1,0 +1,2 @@
+chr	filename	chrlength	bas
+chr20	data/02C10019_bwa_hg19_sorted_deduped.bam	hg19	 

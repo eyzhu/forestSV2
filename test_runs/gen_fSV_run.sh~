@@ -1,0 +1,8 @@
+for f in data/*.bam
+do
+    currF=$(echo $f | cut -f2 -d"/" | cut -f1 -d"_")
+    echo -e "chr\tfilename\tchrlength\tbas" #> $currF"_info"
+    echo -e "chr20\t"$f"\thg19\t "
+
+#echo $currF
+done
